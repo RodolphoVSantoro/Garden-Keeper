@@ -30,7 +30,7 @@ int FundoMenuCompra=-1;
 int idFonteHUD;
 int larJanela,altJanela;
 
-//Inicializações
+//InicializaÃ§Ãµes
 void carregaJogo(int &player, int &p_largura, int &p_altura, Botao* *ret, Botao* *fim);
 void criaTimersJogo(int &timeTeclado, int &cooldown, int &timerInimigos, int &timerEndRound, int &timerPAUSE);
 void setupPartida(Cena **C, int player, int &px, int &py, int larJanela, int altJanela, int &pontos, int &pontosGastos, int &nRound, int &toSpawn, int &spawned, double &tempoEspera, int &hpPlayer, bool comprados[NMAGIAS], int essencia[NMAGIAS], tipoMagia &tM, double &tCooldown, int startRound);
@@ -116,7 +116,7 @@ void setupPartida(Cena **C, int player, int &px, int &py, int &pontos, int &pont
     if(*C!=NULL)
         liberaCena(C);
     criaCena(C);
-    setBackGroundImage(*C,"../imagens/grass2.png");
+    setBackGroundImage(*C,"../imagens/grass.png");
     int altBG,larBG;
     getDimensoesBackGroundImage(*C,&altBG,&larBG);
     setDimensoesBackGroundImage(*C,altBG*relativeAltura,larBG*relativeLargura);

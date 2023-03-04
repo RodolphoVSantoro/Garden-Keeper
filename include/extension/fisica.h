@@ -1,5 +1,6 @@
 #ifndef FIS_H
 #define FIS_H
+#include "tiposJogo.h"
 #include <math.h>
 
 sistemaFisico* criaSistemaFisico(){

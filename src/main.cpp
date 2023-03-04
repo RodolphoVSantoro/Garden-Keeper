@@ -1,6 +1,6 @@
 #define STARTINGPOINTS 300
 #define STARTINGROUND 1
-#include "../src/jogoBruno.h"
+#include "../src/gardenkeeper.h"
 
 using namespace std;
 

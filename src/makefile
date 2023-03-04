@@ -15,4 +15,5 @@ default: jogo
 jogo: $(main)
 	$(CC) $(output) $(main) $(INC) $(LINK) $(FLAGS) $(LIBS)
 
-run: $(exec)
+run: 
+	$(exec)

@@ -7,11 +7,12 @@ FLAGS=-march=core2 -O2 -ansi -std=gnu++11
 LIBS=-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 CC=g++
 main=main.cpp
-output=-o ../bin/jogo
-exec=../bin/jogo.exe
+output=-o ..\bin\jogo.exe
+exec=..\bin\jogo.exe
 
 default: jogo
 
 jogo: $(main)
 	$(CC) $(output) $(main) $(INC) $(LINK) $(FLAGS) $(LIBS)
-	$(exec)
+
+run: $(exec)
